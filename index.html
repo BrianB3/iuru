@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPTV Uruguay</title>
+    <link rel="shortcut icon" href="img/icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/index-style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Canales</a>
+            <a href="#">Planes</a>
+            <a href="#">FAQ</a>
+            <a href="#">Contacto</a>
+        </nav>
+        <section class="texto-header">
+            <h1>¡Te damos la bienvenida al sitio web de IPTV Uruguay!</h1>
+            <h2>Somos un servicio de IPTV (televisión por internet) que cuenta con más de <b>650</b> canales de todo el mundo.</h2>
+            <h2>Además contamos también con un muy amplio catálogo de películas y series para que te entretengas todo el día.</h2>
+        </section>
+    </header>
+    <main>
+        <section class="contenedor sobre-nosotros">
+            <h2 class="titulo">Nuestro producto</h2>
+            <div class="contenedor-sobre-nosotros">
+                <img class="img-sobre-nosotros" src="img/sobre-nosotros.jpg" alt="sobre-nosotros">
+                <div class="contenido-textos">
+                    <h3><span>1</span>Servicio estable y confiable</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati aliquid aspernatur possimus quae perferendis quod sint modi impedit voluptate unde?</p>
+                    <h3><span>2</span>Servicio estable y confiable</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati aliquid aspernatur possimus quae perferendis quod sint modi impedit voluptate unde?</p>
+                </div>
+            </div>
+        </section>
+        <section class="portafolio">
+            <div class="contenedor">
+                <h2 class="titulo">Portafolio</h2>
+                <div class="galeria-port">
+                    <div class="imagen-port">
+                        <img src="img/port1.png" alt="Canales IPTV">
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/port2.png" alt="650 Canales">
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/port3.png" alt="Dispositivos">
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/port4.png" alt="24/7">
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/port5.png" alt="Sin Contratos">
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/port6.png" alt="Ahorro">
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/port7.png" alt="Recepcion">
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/port8.png" alt="Renuevate">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="servicios">
+            <div class="contenedor">
+                <h2 class="titulo">Nuestros servicios</h2>
+                <div class="servicio-cont">
+                    <div class="servicio-ind">
+                        <img src="img/canales-en-vivo.jpg" alt="">
+                        <h3>Canales en vivo</h3>
+                        <p>Más de 650 canales en vivo y en alta definición.</p>
+                    </div>
+                    <div class="servicio-ind">
+                        <img src="img/peliculas.jpg" alt="">
+                        <h3>Películas</h3>
+                        <p>Un catálogo de más de 5000 películas, documentales, conciertos, etc.</p>
+                    </div>
+                    <div class="servicio-ind">
+                        <img src="img/series.jpg" alt="">
+                        <h3>Series</h3>
+                        <p>Más de 500 series en HD.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h4>Phone</h4>
+                <p>+59899285436</p>
+            </div>
+            <div class="content-foo">
+                <h4>Email</h4>
+                <p>+59899285436</p>
+            </div>
+            <div class="content-foo">
+                <h4>Facebook</h4>
+                <p>+59899285436</p>
+            </div>
+            <div class="content-foo">
+                <h4>Instagram</h4>
+                <p>+59899285436</p>
+            </div>
+        </div>
+        <div class="copy">&copy; 2021 - IPTV Uruguay</div>
+    </footer>
+    <!--
+    <div id="smart-button-container">
+        <div style="text-align: center;">
+          <div id="paypal-button-container"></div>
+        </div>
+      </div>
+    <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD" data-sdk-integration-source="button-factory"></script>
+    <script>
+      function initPayPalButton() {
+        paypal.Buttons({
+          style: {
+            shape: 'pill',
+            color: 'gold',
+            layout: 'vertical',
+            label: 'paypal',
+            
+          },
+  
+          createOrder: function(data, actions) {
+            return actions.order.create({
+              purchase_units: [{"description":"LISTA IPTV X 1 MES","amount":{"currency_code":"USD","value":14}}]
+            });
+          },
+  
+          onApprove: function(data, actions) {
+            return actions.order.capture().then(function(details) {
+              alert('Transaction completed by ' + details.payer.name.given_name + '!');
+            });
+          },
+  
+          onError: function(err) {
+            console.log(err);
+          }
+        }).render('#paypal-button-container');
+      }
+      initPayPalButton();
+    </script>
+    -->
+</body>
+</html>
