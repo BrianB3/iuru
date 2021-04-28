@@ -1,0 +1,37 @@
+.planes {
+    display: flex;
+    flex-direction: row;
+}
+
+.plan-ind {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto auto;
+    height: 400px;
+    width: 300px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+.plan-ind .tipo {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.plan-ind #comprar {
+    background: rgb(3, 177, 3);
+    color: #fff;
+    cursor: pointer;
+    width: 250px;
+    height: 50px;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 20px;
+    box-shadow: 2px 2px #ddd;
+}
+
+.plan-ind #comprar i {
+    padding-right: 10px;
+}

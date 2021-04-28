@@ -1,0 +1,273 @@
+.contenedor {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Bienvenida */
+
+.bienvenida {
+    display: flex;
+    height: 600px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    padding: 10px;
+    color: #000;
+}
+
+.bienvenida-img img {
+    width: 99%;
+    height: 400px;
+    align-items: left;
+    border-radius: 15px;
+    justify-content: left;
+}
+
+.bienvenida-texto {
+    align-items: right;
+    justify-content: right;
+}
+
+.bienvenida-texto h1 {
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.bienvenida-texto h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Nuestro producto */
+
+.titulo {
+    color: #b41111;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.contenedor-sobre-nosotros {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img-sobre-nosotros {
+    width: 48%;
+    border-radius: 5px;
+    box-shadow: 1px 1px #ccc;
+}
+
+.sobre-nosotros .contenido-textos {
+    width: 48%;
+}
+
+.contenido-textos h3 {
+    margin-bottom: 15px;
+}
+
+.contenido-textos h3 span {
+    background: #b41111;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+    margin-top: 15px;
+}
+
+.contenido-textos p {
+    padding: 0 0 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+/* Ventajas */
+
+.ventajas {
+    background: #f2f2f2;
+}
+
+.galeria-vent {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.imagen-vent {
+    width: 24%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    border-radius: 10px;
+}
+
+.imagen-vent > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Servicios */
+
+.servicios {
+    padding-bottom: 30px;
+}
+
+.servicio-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.servicio-ind {
+    width: 28%;
+    text-align: center;
+}
+
+.servicio-ind img {
+    width: 100%;
+    height: 175px;
+    border-radius: 10px;
+}
+
+.servicio-ind h3 {
+    margin: 10px 0;
+}
+
+.servicio-ind p {
+    text-align: center;
+}
+
+@media screen and (max-width:1000px){
+    .bienvenida {
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .bienvenida-img img {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width:900px){
+    .bienvenida {
+        background-position: center;
+    }
+
+    /* Sobre Nosotros */
+
+    .contenedor-sobre-nosotros {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sobre-nosotros .contenido-textos,
+    .img-sobre-nosotros {
+        width: 90%;
+    }
+
+    .sobre-nosotros .contenido-textos h3{
+        font-size: 30px;
+    }
+
+    .sobre-nosotros .contenido-textos span{
+        font-size: 30px;
+        width: 45px;
+        margin-top: 50px;
+        height: 45px;
+    }
+
+    .sobre-nosotros .contenido-textos p{
+        font-size: 25px;
+    }
+
+    /* Ventajas */
+
+    .imagen-vent {
+        width: 44%;
+    }
+
+    /* Servicios */
+
+    .servicio-cont {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .servicio-ind {
+        width: 100%;
+        text-align: center;
+    }
+
+    .servicio-ind h3 {
+        font-size: 30px;
+    }
+
+    .servicio-ind p {
+        font-size: 25px;
+    }
+
+    .servicio-ind:nth-child(1), .servicio-ind:nth-child(2){
+        margin-bottom: 60px;
+    }
+
+    .servicio-ind img {
+        width: 90%;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:500px){
+    main .bienvenida h1 {
+        font-size: 35px;
+    }
+
+    main .bienvenida h2 {
+        font-size: 20px;
+    }
+
+    main .bienvenida .bienvenida-img img {
+        margin-top: -50px;
+        height: 300px;
+    }
+
+    .img-sobre-nosotros {
+        width: 99%;
+    }
+
+    .sobre-nosotros .contenido-textos {
+        width: 95%;
+    }
+
+    .contenido-textos p,
+    .contenido-textos h3 {
+        text-align: center;
+    }
+
+    /* Ventajas */
+
+    .imagen-vent {
+        width: 95%;
+    }
+    
+}
+
+@media screen and (max-width:380px){
+    main .bienvenida .bienvenida-img img {
+        height: 200px;
+    }   
+}
