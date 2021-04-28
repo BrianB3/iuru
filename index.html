@@ -6,63 +6,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IPTV Uruguay</title>
     <link rel="shortcut icon" href="img/icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/gral-style.css">
     <link rel="stylesheet" href="estilos/index-style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
+        <a class="logo" href="#"><img class="logo" src="img/logo.png" alt="logo"></a>
         <nav>
-            <a href="#">Inicio</a>
+            <a class="activo" href="#">Inicio</a>
             <a href="#">Canales</a>
-            <a href="#">Planes</a>
+            <a href="planes.html">Planes</a>
             <a href="#">FAQ</a>
             <a href="#">Contacto</a>
         </nav>
-        <section class="texto-header">
-            <h1>¡Te damos la bienvenida al sitio web de IPTV Uruguay!</h1>
-            <h2>Somos un servicio de IPTV (televisión por internet) que cuenta con más de <b>650</b> canales de todo el mundo.</h2>
-            <h2>Además contamos también con un muy amplio catálogo de películas y series para que te entretengas todo el día.</h2>
-        </section>
     </header>
     <main>
+        <section class="bienvenida">
+            <div class="bienvenida-img">
+                <img src="img/television.jpg" alt="television">
+            </div>
+            <div class="bienvenida-texto">
+                <h1>¡Te damos la bienvenida al sitio web de IPTV Uruguay!</h1>
+                <h2>Somos un servicio de IPTV (televisión por internet) que cuenta con más de 650 canales de todo el mundo.</h2>
+                <h2>Además contamos también con un muy amplio catálogo de películas y series para que te entretengas todo el día.</h2>
+            </div>
+        </section>
         <section class="contenedor sobre-nosotros">
-            <h2 class="titulo">Nuestro producto</h2>
+            <h2 class="titulo">Sobre Nosotros</h2>
             <div class="contenedor-sobre-nosotros">
                 <img class="img-sobre-nosotros" src="img/sobre-nosotros.jpg" alt="sobre-nosotros">
                 <div class="contenido-textos">
                     <h3><span>1</span>Servicio estable y confiable</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati aliquid aspernatur possimus quae perferendis quod sint modi impedit voluptate unde?</p>
-                    <h3><span>2</span>Servicio estable y confiable</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati aliquid aspernatur possimus quae perferendis quod sint modi impedit voluptate unde?</p>
+                    <p>Contamos con servidores estables por lo que no debería tener problemas al utilizar el servicio. Solo dependerá de su conexión a internet.</p>
+                    <h3><span>2</span>Diferencias con el tv cable</h3>
+                    <p>Contamos con una gran variedad de canales de todo el mundo. Podrá ver deportes de toda América al igual que los canales locales de cada país. No hay contratos preestablecidos. Además lo puede ver en cualquier dispositivo.</p>
                 </div>
             </div>
         </section>
-        <section class="portafolio">
+        <section class="ventajas">
             <div class="contenedor">
-                <h2 class="titulo">Portafolio</h2>
-                <div class="galeria-port">
-                    <div class="imagen-port">
-                        <img src="img/port1.png" alt="Canales IPTV">
+                <h2 class="titulo">Ventajas</h2>
+                <div class="galeria-vent">
+                    <div class="imagen-vent">
+                        <img src="img/vent1.png" alt="Canales IPTV">
                     </div>
-                    <div class="imagen-port">
-                        <img src="img/port2.png" alt="650 Canales">
+                    <div class="imagen-vent">
+                        <img src="img/vent2.png" alt="650 Canales">
                     </div>
-                    <div class="imagen-port">
-                        <img src="img/port3.png" alt="Dispositivos">
+                    <div class="imagen-vent">
+                        <img src="img/vent3.png" alt="Dispositivos">
                     </div>
-                    <div class="imagen-port">
-                        <img src="img/port4.png" alt="24/7">
+                    <div class="imagen-vent">
+                        <img src="img/vent4.png" alt="24/7">
                     </div>
-                    <div class="imagen-port">
-                        <img src="img/port5.png" alt="Sin Contratos">
+                    <div class="imagen-vent">
+                        <img src="img/vent5.png" alt="Sin Contratos">
                     </div>
-                    <div class="imagen-port">
-                        <img src="img/port6.png" alt="Ahorro">
+                    <div class="imagen-vent">
+                        <img src="img/vent6.png" alt="Ahorro">
                     </div>
-                    <div class="imagen-port">
-                        <img src="img/port7.png" alt="Recepcion">
+                    <div class="imagen-vent">
+                        <img src="img/vent7.png" alt="Recepcion">
                     </div>
-                    <div class="imagen-port">
-                        <img src="img/port8.png" alt="Renuevate">
+                    <div class="imagen-vent">
+                        <img src="img/vent8.png" alt="Renuevate">
                     </div>
                 </div>
             </div>
@@ -72,19 +81,19 @@
                 <h2 class="titulo">Nuestros servicios</h2>
                 <div class="servicio-cont">
                     <div class="servicio-ind">
-                        <img src="img/canales-en-vivo.jpg" alt="">
+                        <img src="img/canales-en-vivo.jpg" alt="canales-en-vivo">
                         <h3>Canales en vivo</h3>
                         <p>Más de 650 canales en vivo y en alta definición.</p>
                     </div>
                     <div class="servicio-ind">
-                        <img src="img/peliculas.jpg" alt="">
+                        <img src="img/peliculas.jpg" alt="peliculas">
                         <h3>Películas</h3>
-                        <p>Un catálogo de más de 5000 películas, documentales, conciertos, etc.</p>
+                        <p>Un catálogo de más de 5000 películas, documentales, etc.</p>
                     </div>
                     <div class="servicio-ind">
-                        <img src="img/series.jpg" alt="">
+                        <img src="img/series.jpg" alt="series">
                         <h3>Series</h3>
-                        <p>Más de 500 series en HD.</p>
+                        <p>Más de 500 series con todos sus capítulos en alta definición.</p>
                     </div>
                 </div>
             </div>
@@ -93,61 +102,22 @@
     <footer>
         <div class="contenedor-footer">
             <div class="content-foo">
-                <h4>Phone</h4>
-                <p>+59899285436</p>
+                <a href="https://api.whatsapp.com/send?phone=59891377780" target="_blank"><img src="img/whatsapp.svg" alt="whatsapp"></a>
             </div>
             <div class="content-foo">
-                <h4>Email</h4>
-                <p>+59899285436</p>
+                <a href="" target="_blank"><img src="img/telegram.svg" alt="telegram"></a>
             </div>
             <div class="content-foo">
-                <h4>Facebook</h4>
-                <p>+59899285436</p>
+                <a href="mailto:iptvuruguay3@gmail.com" target="_blank"><img src="img/email.svg" alt="email"></a>
             </div>
             <div class="content-foo">
-                <h4>Instagram</h4>
-                <p>+59899285436</p>
+                <a href="https://www.facebook.com/IPTV-Uruguay-103679805196351" target="_blank"><img src="img/facebook.svg" alt="facebook"></a>
+            </div>
+            <div class="content-foo">
+                <a href="https://www.instagram.com/iptvuruguayo" target="_blank"><img src="img/instagram.svg" alt="instagram"></a>
             </div>
         </div>
         <div class="copy">&copy; 2021 - IPTV Uruguay</div>
     </footer>
-    <!--
-    <div id="smart-button-container">
-        <div style="text-align: center;">
-          <div id="paypal-button-container"></div>
-        </div>
-      </div>
-    <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD" data-sdk-integration-source="button-factory"></script>
-    <script>
-      function initPayPalButton() {
-        paypal.Buttons({
-          style: {
-            shape: 'pill',
-            color: 'gold',
-            layout: 'vertical',
-            label: 'paypal',
-            
-          },
-  
-          createOrder: function(data, actions) {
-            return actions.order.create({
-              purchase_units: [{"description":"LISTA IPTV X 1 MES","amount":{"currency_code":"USD","value":14}}]
-            });
-          },
-  
-          onApprove: function(data, actions) {
-            return actions.order.capture().then(function(details) {
-              alert('Transaction completed by ' + details.payer.name.given_name + '!');
-            });
-          },
-  
-          onError: function(err) {
-            console.log(err);
-          }
-        }).render('#paypal-button-container');
-      }
-      initPayPalButton();
-    </script>
-    -->
 </body>
 </html>
