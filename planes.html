@@ -8,45 +8,82 @@
     <link rel="shortcut icon" href="img/icon.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilos/gral-style.css">
     <link rel="stylesheet" href="estilos/planes-style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <a class="logo" href="#"><img class="logo" src="img/logo.png" alt="logo"></a>
+        <a class="logo" href="index.html"><img class="logo" src="img/logo.png" alt="logo"></a>
         <nav>
             <a href="index.html">Inicio</a>
-            <a href="#">Canales</a>
+            <a href="canales.html">Canales</a>
             <a class="activo" href="#">Planes</a>
-            <a href="#">FAQ</a>
-            <a href="#">Contacto</a>
+            <a href="preguntas-frecuentes.html">FAQ</a>
+            <a href="contacto.html">Contacto</a>
         </nav>
     </header>
     <main>
-        <section class="principal">
+        <div class="principal">
             <div class="planes">
                 <div class="plan-ind">
                     <span class="tipo">PLAN POR 1 MES</span>
                     <span class="caracteristicas">+650 Canales en vivo</span>
                     <span class="caracteristicas">+5000 Películas</span>
-                    <button role="button" id="comprar"><i class="fas fa-shopping-cart"></i>U$D13.99</button>
+                    <span class="caracteristicas">+500 Series</span>
+                    <span class="caracteristicas">Atención todos los dias</span>
+                    <span class="caracteristicas">Servicio 24/7</span>
+                    <button role="button" onclick="location.href='planes/plan-1-mes.html'" class="comprar" id="1-mes"><i class="fas fa-shopping-cart"></i>U$D13.99</button>
                 </div>
                 <div class="plan-ind">
                     <span class="tipo">PLAN POR 3 MESES</span>
                     <span class="caracteristicas">+650 Canales en vivo</span>
-                    <button role="button" id="comprar"><i class="fas fa-shopping-cart"></i>U$D35.99</button>
+                    <span class="caracteristicas">+5000 Películas</span>
+                    <span class="caracteristicas">+500 Series</span>
+                    <span class="caracteristicas">Atención todos los dias</span>
+                    <span class="caracteristicas">Servicio 24/7</span>
+                    <button role="button" onclick="location.href='planes/plan-3-meses.html'" class="comprar" id="3-meses"><i class="fas fa-shopping-cart"></i>U$D35.99</button>
                 </div>
                 <div class="plan-ind">
                     <span class="tipo">PLAN POR 6 MESES</span>
                     <span class="caracteristicas">+650 Canales en vivo</span>
-                    <button role="button" id="comprar"><i class="fas fa-shopping-cart"></i>U$D69.99</button>
+                    <span class="caracteristicas">+5000 Películas</span>
+                    <span class="caracteristicas">+500 Series</span>
+                    <span class="caracteristicas">Atención todos los dias</span>
+                    <span class="caracteristicas">Servicio 24/7</span>
+                    <button role="button" onclick="location.href='planes/plan-6-meses.html'" class="comprar" id="6-meses"><i class="fas fa-shopping-cart"></i>U$D69.99</button>
                 </div>
                 <div class="plan-ind">
                     <span class="tipo">PLAN POR 12 MESES</span>
                     <span class="caracteristicas">+650 Canales en vivo</span>
-                    <button role="button" id="comprar"><i class="fas fa-shopping-cart"></i>U$D139.99</button>
+                    <span class="caracteristicas">+5000 Películas</span>
+                    <span class="caracteristicas">+500 Series</span>
+                    <span class="caracteristicas">Atención todos los dias</span>
+                    <span class="caracteristicas">Servicio 24/7</span>
+                    <button role="button" onclick="location.href='planes/plan-12-meses.html'" class="comprar" id="12-meses"><i class="fas fa-shopping-cart"></i>U$D139.99</button>
                 </div>
             </div>
-        </section>
+        </div>
     </main>
+    <footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <a href="https://api.whatsapp.com/send?phone=59891377780" target="_blank"><img src="img/whatsapp.svg" alt="whatsapp"></a>
+            </div>
+            <div class="content-foo">
+                <a href="https://t.me/iptvuruguayo" target="_blank"><img src="img/telegram.svg" alt="telegram"></a>
+            </div>
+            <div class="content-foo">
+                <a href="mailto:iptvuruguay3@gmail.com" target="_blank"><img src="img/email.svg" alt="email"></a>
+            </div>
+            <div class="content-foo">
+                <a href="https://www.facebook.com/IPTV-Uruguay-103679805196351" target="_blank"><img src="img/facebook.svg" alt="facebook"></a>
+            </div>
+            <div class="content-foo">
+                <a href="https://www.instagram.com/iptvuruguayo" target="_blank"><img src="img/instagram.svg" alt="instagram"></a>
+            </div>
+        </div>
+        <div class="copy">&copy; 2021 - IPTV Uruguay</div>
+    </footer>
     <script src="https://kit.fontawesome.com/efdbb962c7.js" crossorigin="anonymous"></script>
 </body>
 </html>
