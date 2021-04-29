@@ -1,3 +1,5 @@
+/* Main */
+
 .contenedor {
     padding: 60px 0;
     width: 90%;
@@ -10,7 +12,7 @@
 
 .bienvenida {
     display: flex;
-    height: 600px;
+    height: 500px;
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -18,11 +20,12 @@
     text-align: center;
     padding: 10px;
     color: #000;
+    border-bottom: 2px  solid #ccc;
 }
 
 .bienvenida-img img {
     width: 99%;
-    height: 400px;
+    height: 320px;
     align-items: left;
     border-radius: 15px;
     justify-content: left;

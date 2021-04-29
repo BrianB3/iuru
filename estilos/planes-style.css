@@ -1,37 +1,74 @@
+.principal {
+    display: flex;
+    margin: 75px auto;
+    max-width: 1280px;
+    justify-content: center;
+    overflow: hidden;
+}
+
 .planes {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .plan-ind {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: auto auto;
+    margin: 20px 10px;
     height: 400px;
     width: 300px;
     border: 2px solid #ccc;
     border-radius: 10px;
+    text-align: center;
 }
 
 .plan-ind .tipo {
     font-size: 20px;
     font-weight: bold;
     padding: 20px;
+    border-bottom: 2px solid #ccc;
 }
 
-.plan-ind #comprar {
+.plan-ind .comprar {
     background: rgb(3, 177, 3);
     color: #fff;
     cursor: pointer;
-    width: 250px;
+    width: 90%;
     height: 50px;
     border-style: none;
-    border-radius: 5px;
+    border-radius: 40px;
     font-size: 20px;
     box-shadow: 2px 2px #ddd;
+    margin-top: 10px;
 }
 
-.plan-ind #comprar i {
+.plan-ind .comprar i {
     padding-right: 10px;
+}
+
+.caracteristicas {
+    padding: 15px;
+    font-weight: bold;
+}
+
+@media screen and (max-width:1250px){
+    .plan-ind {
+        width: 32%;
+        margin: auto auto 20px auto;
+    }
+}
+
+@media screen and (max-width:800px){
+    .plan-ind {
+        width: 45%;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:546px){
+    .plan-ind {
+        width: 80%;
+    }
 }

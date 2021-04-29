@@ -1,0 +1,13 @@
+button {
+    border: hidden;
+    background-color: #fff;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+
+i {
+    display: !important;
+    width: 100%;
+    height: 100%;
+}
