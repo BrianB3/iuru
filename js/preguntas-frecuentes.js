@@ -17,4 +17,4 @@ function mostrarOcultar(ref)
         xNodoDelEnlace.innerHTML = '<i class="fas fa-plus-circle"></i>'; 
         nodoContraible.style.display = 'none'; 
     } 
-} 
+}
