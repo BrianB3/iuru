@@ -24,10 +24,196 @@
     </header>
     <main>
         <div class="principal">
+            <h1><i class="fas fa-question-circle"></i> Preguntas frecuentes</h1>
             <div class="pregunta">
-                <button class="desactivo" role="button" onclick="accion()"><i class="fas fa-plus-circle"></i></button>
-                <div class="respuesta">
-
+                <button role="button" id="xres1" onclick="mostrarOcultar('res1');"><i class="fas fa-plus-circle"></i></button>
+                <span class="titulo">¿Qué es IPTV?</span>
+                <div style="display: none;" class="respuesta" id="res1">
+                    <p>Conocido como Protocolo de Internet y Televisión. Es la nueva manera de ver televisión en donde ya no es necesario antenas, solo una conexión a internet.</p>
+                </div>
+            </div>
+            <div class="pregunta">
+                <button role="button" id="xres2" onclick="mostrarOcultar('res2');"><i class="fas fa-plus-circle"></i></button>
+                <span class="titulo">¿Qué dispositivos puedo utilizar?</span>
+                <div style="display: none;" class="respuesta" id="res2">
+                    <ul>
+                        <li>Smart TV</li>
+                        <li>PC</li>
+                        <li>TV Box</li>
+                        <li>Smartphone</li>
+                        <li>Smart Box</li>
+                        <li>Roku</li>
+                        <li>Fire Stick TV</li>
+                        <li>Mag</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pregunta">
+                <button role="button" id="xres3" onclick="mostrarOcultar('res3');"><i class="fas fa-plus-circle"></i></button>
+                <span class="titulo">¿Qué es VOD?</span>
+                <div style="display: none;" class="respuesta" id="res3">
+                    <p>VOD (Video on Demand) es básicamente una biblioteca de películas y series la cual puede ver tantas veces como desee y cuando lo desee.</p>
+                </div>
+            </div>
+            <div class="pregunta">
+                <button role="button" id="xres4" onclick="mostrarOcultar('res4');"><i class="fas fa-plus-circle"></i></button>
+                <span class="titulo">¿Dónde puedo recibo soporte?</span>
+                <div style="display: none;" class="respuesta" id="res4">
+                    <p>Al adquirir una lista privada podrás recibir soporte por donde adquiriste la lista, ya que ahí es donde se lleva un registro de las conversaciones y del seguimiento de tu compra.</p>
+                    <p>Por ejemplo:</p>
+                    <ul>
+                        <li><a href="https://api.whatsapp.com/send?phone=59891377780" target="_blank">Whatsapp</a></li>
+                        <li><a href="https://t.me/iptvuruguayo" target="_blank">Telegram</a></li>
+                        <li><a href="mailto:iptvuruguay3@gmail.com" target="_blank">E-Mail</a></li>
+                        <li><a href="https://www.facebook.com/IPTV-Uruguay-103679805196351" target="_blank">Facebook</a></li>
+                        <li><a href="https://www.instagram.com/iptvuruguayo" target="_blank">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pregunta">
+                <button role="button" id="xres5" onclick="mostrarOcultar('res5');"><i class="fas fa-plus-circle"></i></button>
+                <span class="titulo">¿Cuál es la velocidad de internet que necesito?</span>
+                <div style="display: none;" class="respuesta" id="res5">
+                    <ul>
+                        <li>Canales SD(480): 5 MBPS</li>
+                        <li>Canales HD(720): 8-10 MBPS</li>
+                        <li>Canales FHD(1080): 12 MBPS</li>
+                        <li>Películas 4K: 20-30 MBPS</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pregunta">
+                <button role="button" id="xres6" onclick="mostrarOcultar('res6');"><i class="fas fa-plus-circle"></i></button>
+                <span class="titulo">¿Qué formas de pago aceptan?</span>
+                <div style="display: none;" class="respuesta" id="res6">
+                    <ul>
+                        <li>Tarjetas (débito y crédito)</li>
+                        <li>Paypal</li>
+                        <li>Mercado Pago</li>
+                        <li>Midinero (Uruguay)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pregunta">
+                <button role="button" id="xres7" onclick="mostrarOcultar('res7');"><i class="fas fa-plus-circle"></i></button>
+                <span class="titulo">¿Cuántos dispositivos puedo usar de forma simultánea?</span>
+                <div style="display: none;" class="respuesta" id="res7">
+                    <p>Actualmente el servicio se puede usar en hasta 3 dispositivos de forma simultánea.</p>
+                </div>
+            </div>
+            <div class="pregunta">
+                <button role="button" id="xres8" onclick="mostrarOcultar('res8');"><i class="fas fa-plus-circle"></i></button>
+                <span class="titulo">¿Puedo utilizar el servicio en otra red WIFI?</span>
+                <div style="display: none;" class="respuesta" id="res8">
+                    <p>Sí, es posible usarlo en otra red wifi diferente a su red, mientras esta red se encuentre en el mismo país donde contrató el servicio.</p>
+                </div>
+            </div>
+            <div class="pregunta">
+                <button role="button" id="xres9" onclick="mostrarOcultar('res9');"><i class="fas fa-plus-circle"></i></button>
+                <span class="titulo">¿Qué es un servidor?</span>
+                <div style="display: none;" class="respuesta" id="res9">
+                    <p>Es donde se almacena todo el contenido como lo son las imágenes, canales, texto, información, etc.</p>
+                </div>
+            </div>
+            <div class="pregunta">
+                <button role="button" id="xres10" onclick="mostrarOcultar('res10');"><i class="fas fa-plus-circle"></i></button>
+                <span class="titulo">¿Por qué no puedo usar VPN, VPS o servidor?</span>
+                <div style="display: none;" class="respuesta" id="res10">
+                    <p>Porque que en las listas privadas no se permite hacer restream (retransmitir la señal) ya que sólo es para uso personal.</p>
+                </div>
+            </div>
+            <div class="pregunta">
+                <button role="button" id="xres11" onclick="mostrarOcultar('res11');"><i class="fas fa-plus-circle"></i></button>
+                <span class="titulo">¿Qué es un VPN?</span>
+                <div style="display: none;" class="respuesta" id="res11">
+                    <p>Es una aplicación que sirve para cambiar la IP. Su función principal es conectarse a cierto contenido o páginas web desde otro país como si se estuviera en él.</p>
+                </div>
+            </div>
+            <div class="pregunta">
+                <button role="button" id="xres12" onclick="mostrarOcultar('res12');"><i class="fas fa-plus-circle"></i></button>
+                <span class="titulo">¿Qué es un VPS?</span>
+                <div style="display: none;" class="respuesta" id="res12">
+                    <p>Es un servidor virtual más pequeño a diferencia de un servidor.</p>
+                </div>
+            </div>
+            <div class="pregunta">
+                <button role="button" id="xres13" onclick="mostrarOcultar('res13');"><i class="fas fa-plus-circle"></i></button>
+                <span class="titulo">¿Qué significa que mi cuenta fue baneada?</span>
+                <div style="display: none;" class="respuesta" id="res13">
+                    <p>Esto significa que el servidor dio de baja tu cuenta y ya no podrás ver la programación debido a que se incumplió con los términos y condiciones de no usar VPN, VPS, Proxy o Servidor. Por haber hecho pública la lista y/o haber excedido las conexiones permitidas. Si esto sucede no hay reembolso.</p>
+                </div>
+            </div>
+            <div class="pregunta">
+                <button role="button" id="xres14" onclick="mostrarOcultar('res14');"><i class="fas fa-plus-circle"></i></button>
+                <span class="titulo">¿Se pueden modificar los canales de mi lista?</span>
+                <div style="display: none;" class="respuesta" id="res14">
+                    <p>Sí, es posible hacer la modificación, pero no se recomienda. Debido a que como es recomendable usar la lista remotamente, hacer esto anularía que esta funcione remotamente. Y de esta manera ya no recibiría las últimas actualizaciones del contenido.</p>
+                </div>
+            </div>
+            <div class="pregunta">
+                <button role="button" id="xres15" onclick="mostrarOcultar('res15');"><i class="fas fa-plus-circle"></i></button>
+                <span class="titulo">¿Qué significa paquete familiar?</span>
+                <div style="display: none;" class="respuesta" id="res15">
+                    <p>Este paquete no contiene contenido para adultos a diferencia del paquete normal que incluye todo el contenido.</p>
+                </div>
+            </div>
+            <div class="pregunta">
+                <button role="button" id="xres16" onclick="mostrarOcultar('res16');"><i class="fas fa-plus-circle"></i></button>
+                <span class="titulo">¿Cuánto tiempo funciona el servicio?</span>
+                <div style="display: none;" class="respuesta" id="res16">
+                    <p>Tenemos paquetes por:</p>
+                    <ul>
+                        <li>1 mes</li>
+                        <li>3 meses</li>
+                        <li>6 meses</li>
+                        <li>12 meses</li>
+                    </ul>
+                    <p>El servicio funcionará por el tiempo que adquieras el servicio.</p>
+                </div>
+            </div>
+            <div class="pregunta">
+                <button role="button" id="xres17" onclick="mostrarOcultar('res17');"><i class="fas fa-plus-circle"></i></button>
+                <span class="titulo">¿Es posible cambiarle el idioma a los canales?</span>
+                <div style="display: none;" class="respuesta" id="res17">
+                    <p>Es posible cambiar el idioma a los canales que sean Dual Audio.</p>
+                </div>
+            </div>
+            <div class="pregunta">
+                <button role="button" id="xres18" onclick="mostrarOcultar('res18');"><i class="fas fa-plus-circle"></i></button>
+                <span class="titulo">¿Por qué en mi dispositivo no se ve o no se escucha en 4K?</span>
+                <div style="display: none;" class="respuesta" id="res18">
+                    <p>Ya que es necesario que tu TV o dispositivo donde vas a ver el contenido 4K sea compatible.</p>
+                    <p>En algunos casos solo se ve, pero no se escucha, o se escucha, pero no se ve. Esto significa que no es 100% compatible.</p>
+                </div>
+            </div>
+            <div class="pregunta">
+                <button role="button" id="xres19" onclick="mostrarOcultar('res19');"><i class="fas fa-plus-circle"></i></button>
+                <span class="titulo">¿Puedo comprar 1 mes y luego 3 meses o más?</span>
+                <div style="display: none;" class="respuesta" id="res19">
+                    <p>Sí, es posible. Puedes adquirir primero un mes para probar el servicio, y posteriormente, comprar 3, 6 o 12 meses para aprovechar el descuento especial, o seguir pagando mensualmente.</p>
+                </div>
+            </div>
+            <div class="pregunta">
+                <button role="button" id="xres20" onclick="mostrarOcultar('res20');"><i class="fas fa-plus-circle"></i></button>
+                <span class="titulo">¿Qué sucede cuando se termina mi suscripción?</span>
+                <div style="display: none;" class="respuesta" id="res20">
+                    <p>El servicio se corta automáticamente después de que haya finalizado el período de contratación (esto dependerá si lo contrataste por 1, 3, 6 o 12 meses).</p>
+                    <p>Si tienes una suscripción automática no tendrás que preocuparte por renovar manualmente, se renovará cada mes y la renovación se cargará en automático a tu tarjeta o a PayPal dependiente del método de pago que hayas utilizado.</p>
+                </div>
+            </div>
+            <div class="pregunta">
+                <button role="button" id="xres21" onclick="mostrarOcultar('res21');"><i class="fas fa-plus-circle"></i></button>
+                <span class="titulo">¿Puedo agregar más canales a mi paquete?</span>
+                <div style="display: none;" class="respuesta" id="res21">
+                    <p>Cada paquete cuenta con su propia programación, y en la mayoría de los casos no es posible. Puede solicitar algún canal y podemos ver si es posible agregarlo.</p>
+                </div>
+            </div>
+            <div class="pregunta">
+                <button role="button" id="xres22" onclick="mostrarOcultar('res22');"><i class="fas fa-plus-circle"></i></button>
+                <span class="titulo">¿Qué día debo pagar para que no se me corte el servicio?</span>
+                <div style="display: none;" class="respuesta" id="res22">
+                    <p>Se recomienda hacer el pago un día antes de la fecha de corte para que el servicio no se corte y sigas disfrutando del servicio.</p>
+                    <p>También te recomendamos hacer el pago a través del sitio web y tener la suscripción automática activa y no preocuparte por estar renovando cada mes.</p>
                 </div>
             </div>
         </div>
@@ -53,5 +239,6 @@
         <div class="copy">&copy; 2021 - IPTV Uruguay</div>
     </footer>
     <script src="https://kit.fontawesome.com/efdbb962c7.js" crossorigin="anonymous"></script>
+    <script src="js/preguntas-frecuentes.js"></script>
 </body>
 </html>
