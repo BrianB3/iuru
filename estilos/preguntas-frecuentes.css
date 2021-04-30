@@ -1,3 +1,60 @@
+.principal {
+    display: flex;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    padding: 60px 0;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+h1 {
+    padding: 15px;
+    border-bottom: 2px solid #ccc;
+}
+
+.pregunta {
+    padding: 15px;
+    border-bottom: 2px solid #ccc;
+}
+
+.respuesta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.respuesta p {
+    padding: 10px;
+}
+
+.respuesta ul li{
+    text-align: left;
+}
+
+.respuesta ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.respuesta ul li a:hover {
+    text-decoration: underline;
+}
+
+.titulo {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 100px;
+}
+
+button > i {
+    font-size: 20px;
+    font-weight: bold;
+}
+
 button {
     border: hidden;
     background-color: #fff;
@@ -6,8 +63,8 @@ button {
     height: 30px;
 }
 
-i {
-    display: !important;
-    width: 100%;
-    height: 100%;
+.respuesta {
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
 }
