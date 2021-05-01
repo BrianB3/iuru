@@ -1,0 +1,40 @@
+.principal {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.medios {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.medios a {
+    text-decoration: none;
+    color: #000;
+}
+
+.medios .medio {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    flex-direction: column;
+    border-radius: 5%;
+    align-items: center;
+    border: 2px solid #ccc;
+}
+
+.medio .medio-titulo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.medio .medio-img {
+    padding: 10px;
+    width: 80%;
+    height: 80%;
+}
